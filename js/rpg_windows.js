@@ -47,11 +47,11 @@ Window_Base.prototype.standardFontFace = function() {
 };
 
 Window_Base.prototype.standardFontSize = function() {
-    return 28;
+    return 24;
 };
 
 Window_Base.prototype.standardPadding = function() {
-    return 18;
+    return 30;
 };
 
 Window_Base.prototype.textPadding = function() {
@@ -177,7 +177,7 @@ Window_Base.prototype.textColor = function(n) {
 };
 
 Window_Base.prototype.normalColor = function() {
-    return this.textColor(0);
+    return this.textColor(15);
 };
 
 Window_Base.prototype.systemColor = function() {
